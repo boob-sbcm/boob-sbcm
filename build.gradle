@@ -1,11 +1,13 @@
+apply plugin: 'java'
+
 buildscript {
 	repositories {
 		jcenter()
 		maven { url 'https://maven.rapidminer.com/content/groups/public/' }
 	}
 	dependencies {
-		classpath 'com.rapidminer.gradle:java-basics:0.4.0'
-		classpath 'com.rapidminer.gradle:java-publishing:0.2.0'
+		classpath 'com.rapidminer.gradle:java-basics:0.4.2'
+		classpath 'com.rapidminer.gradle:java-publishing:0.2.1'
 	}
 }
 
